@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: gray;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: capitalize;
+  line-height: 80px;
+}
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(170, 170, 170);
+    box-shadow: 5px -5px 20px black,
+                -5px 5px 20px white;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+    
+  }
+  
+ 
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.3s;
+    box-shadow: 5px -5px 20px black,
+    -5px 5px 20px white;
+    
+    border-radius: 10px;
+
+  }
+  
+ 
+  .sidenav a:hover {
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) ease-in-out;
+    background-color: tomato;
+    color: white;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  
+                 
+  }
+  
+  
+  #main {
+    transition: margin-left 0.5s ease-in;
+    padding: 20px;
+  }
+  
+
+  .btn{
+      border: none;
+      outline: none;
+      width: 150px;
+      height: 55px;
+      background-color: burlywood;
+      color: white;
+      box-shadow: 5px -5px 20px black,
+                -5px 5px 20px white;
+                align-items: center;
+                margin-left: 550px;
+                border-radius: 25px;
+                font-size: 25px;
+                margin-top: 55px;
+
+  }
+  @media screen and (max-width: 350px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .btn{
+      align-items: center;
+      position: relative;
+      left: -400px;
+      box-shadow: 4px 4px 5px black,
+      4px -4px 5px blueviolet;
+      width: 85px;
+      height: 35px;
+
+
+
+    }
+  }
+  .side-logo{
+      box-shadow:  5px -5px 25px black,
+                  -7px 5px 20px white;
+              border-radius: 50%;
+              margin-left: 50px;
+  }
